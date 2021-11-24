@@ -1,12 +1,5 @@
-//Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// Variables
+@import 'variables';
 
-//Additional
-@import 'style';
-
-//Fontawesome
-$fa-font-path: "../webfonts";
-@import "~@fortawesome/fontawesome-free/scss/fontawesome";
-@import "~@fortawesome/fontawesome-free/scss/solid";
-@import "~@fortawesome/fontawesome-free/scss/brands";
-@import "~@fortawesome/fontawesome-free/scss/regular";
+// Bootstrap
+@import '~admin-lte/build/scss/adminlte';
